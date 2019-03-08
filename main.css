@@ -1,0 +1,65 @@
+body {
+    font-family: 'Economica', sans-serif;
+    background-image: url('img/2128277-169_company_of_heroes_2_pc_review_062513_57.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+}
+
+.generator {
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    margin: auto;
+    width: 300px;
+}
+
+
+button {
+    font-family: 'Economica';
+    font-size: 40px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    border-style: none;
+    padding: 8px;
+    background: white;
+}
+
+button:active {
+    background: rgb(223, 223, 223);
+}
+
+button:hover {
+    
+}
+
+#image {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    -moz-appearance: none;
+    border-style:none
+}
+
+.faction-result {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+}
+
+#faction-name {
+    font-size: 60px;
+}
